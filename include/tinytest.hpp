@@ -1,3 +1,16 @@
+// Small single-header test framework.
+//
+// std: C++17
+// Author: Joel Oredsson
+//
+// Example of usage (Note that tinytest creates a main function):
+//
+//  #include "tinytest.hpp"
+//
+//  TEST_CASE(first_test) {
+//      int x = 1 + 1;
+//      ASSERT(x == 2);
+//  }
 #pragma once
 
 #include <functional>

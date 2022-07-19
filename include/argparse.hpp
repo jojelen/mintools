@@ -1,5 +1,6 @@
-// Small single-header argparser written in C++17.
+// Small single-header argparser.
 //
+// std: C++17
 // Author: Joel Oredsson
 //
 // Example of usage:
