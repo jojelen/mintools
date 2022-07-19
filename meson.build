@@ -8,6 +8,6 @@ else
     add_project_arguments('-DDEBUG', language : ['cpp'])
 endif
 
-root_dir = include_directories('.')
+inc_dir = include_directories('include')
 
 subdir('test')
